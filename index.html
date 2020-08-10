@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Pig Game</title>
+</head>
+<body>
+  
+  <div class="wrapper">
+    <div class="content">
+      <div class="content-1 turn">
+        <div id="player-1" class="player"><h1>PLAYER 1</h1></div>
+        <div id="score-1" class="score new">0</div>
+        <div class="current">
+          <div class="active">
+            <p>CURRENT</p>
+            <P class="cur new">0</P>
+          </div>
+        </div>
+      </div>
+      <div class="content-2">
+        <div id="player-2" class="player"><h1>PLAYER 2</h1></div>
+        <div id="score-2" class="score new">0</div>
+        
+        <div class="current">
+          <div class="active">
+            <p>CURRENT</p>
+            <P class="cur new">0</P>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+    <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>     
+    <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+    <img src="img/dice-5.png" alt="Dice" class="dice">
+    <input id="inp" type="number" placeholder="target value">
+  </div>
+  <script src="js/main.js"></script>  
+</body>
+</html>
